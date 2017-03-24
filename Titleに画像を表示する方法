@@ -1,0 +1,2 @@
+１．HTMLのHeadに下記のソースを定義すると、ブラウザのタイトル部分に画像が表示される。
+<link rel="shortcut icon" href="イメージ相対パス" th:href="${@environment.getProperty('system.logo.img')}" type="image/png" sizes="20x20"/>
